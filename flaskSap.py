@@ -59,3 +59,6 @@ def show_prime(post_id):
 			for i in range(p, post_id+1, p):
 				sieve[i] = False
 	return 'Numbers:' + str(numsList)
+
+if __name__ == "__main__":
+	app.run(host ='0.0.0.0', port = 5001, debug = True)
