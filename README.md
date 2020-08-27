@@ -9,3 +9,7 @@ Create a basic Flask web application:
 - /<int:number>/odd will display only odd numbers in that range
 - /<int:number>/even will display only even numbers in that range
 - /<int:number>/prime will display only prime numbers in that range
+
+## Usage:
+
+
