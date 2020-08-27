@@ -14,19 +14,22 @@ Create a basic Flask web application:
 
 Use Python 3 and virtual environments.
 
-Run:
-$ python3 -m venv venv
-$ . venv/bin/activate
-$ pip install Flask
+To run docker:
+- $ sudo docker run --name flasksap -p 5001:5001 flasksap
 
-$ export FLASK_APP=hello.py
-$ flask run
+If Flask is not install:
+Run:
+- $ python3 -m venv venv
+- $ . venv/bin/activate
+- $ pip install Flask
+
+Testing
+- $ export FLASK_APP=hello.py
+- $ flask run
 
 If that does not work try:
-$ export FLASK_APP=hello.py
-$ export FLASK_ENV=development
-$ python -m flask run
+- $ export FLASK_APP=hello.py
+- $ export FLASK_ENV=development
+- $ python -m flask run
 
-To run docker:
-$ sudo docker run --name flasksap -p 5001:5001 flasksap
 
