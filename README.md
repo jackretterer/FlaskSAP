@@ -23,11 +23,11 @@ If Flask is not installed, run:
 - $ pip install Flask
 
 Testing Flask:
-- $ export FLASK_APP=<fileName>.py
+- $ export FLASK_APP=fileName.py
 - $ flask run
 
 If that does not work try:
-- $ export FLASK_APP=<fileName>.py
+- $ export FLASK_APP=fileName.py
 - $ export FLASK_ENV=development
 - $ python -m flask run
 
