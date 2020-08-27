@@ -15,7 +15,6 @@ app = Flask(__name__)
 def hello_world():
     return 'Index Page'
 
-#
 # will display integers from 1 to that number
 @app.route('/<int:post_id>')
 def show_post(post_id):
