@@ -17,18 +17,17 @@ Use Python 3 and virtual environments.
 To run docker:
 - $ sudo docker run --name flasksap -p 5001:5001 flasksap
 
-If Flask is not install:
-Run:
+If Flask is not installed, run:
 - $ python3 -m venv venv
 - $ . venv/bin/activate
 - $ pip install Flask
 
-Testing
-- $ export FLASK_APP=hello.py
+Testing Flask:
+- $ export FLASK_APP=<fileName>.py
 - $ flask run
 
 If that does not work try:
-- $ export FLASK_APP=hello.py
+- $ export FLASK_APP=<fileName>.py
 - $ export FLASK_ENV=development
 - $ python -m flask run
 
