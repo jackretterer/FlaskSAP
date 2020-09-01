@@ -14,6 +14,9 @@ Create a basic Flask web application:
 
 Use Python 3 and virtual environments.
 
+To builder docker:
+- $ sudo docker build --tag flasksap .
+
 To run docker:
 - $ sudo docker run --name flasksap -p 5001:5001 flasksap
 
